@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Home Section</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+	<h1 class="main-title">Alka's Portfolio</h1>
+
+	<nav>
+	<ul>
+		<li><a href="{{ url_for('about')}}">About</a></li>
+		<li><a href="{{ url_for('projects')}}">Project</a></li>
+		<li><a href="{{ url_for('resume')}}">Resume</a></li>
+		<li><a href="{{ url_for('contact')}}">Contact</a></li>
+	</ul>
+</nav>
+</body>
+</html>

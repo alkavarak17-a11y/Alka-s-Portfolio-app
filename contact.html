@@ -1,0 +1,37 @@
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h4>Get in Touch</h4>
+		<p>I am open to internship opportunities and collaborations.Feel free to conntact me.</p>
+		{% with messages =get_flashed_messages() %}
+			{% if messages %}
+				<p style="color:green;">{{messages[0]}}</p>
+			{% endif %}
+		{% endwith %}
+
+		<form method="POST">
+
+			<label>Name:</label>
+			<input type="text" name="name" required><br>
+
+			<label>E-mail Address:</label><br>
+			<input type="email" name="email" required><br>
+
+			<label>Subject:</label><br>
+			<input type="text" name="subject"><br>
+			
+			<label>Message:</label><br>
+			<textarea name="message" rows="5" required></textarea><br>
+
+			<button type="submit">Send messages</button>
+
+		</form>
+
+		<hr>
+
+		<h3>Contact Information</h3>
+		<p><b>Email:</b>alkavarak17@gmail.com</p>
+		<p><b>location:</b>Maharashtra, Mumbai</p>
+		<p><b>GitHub:</b><a href="https://github.com/alkavarak17-a11y" target="_blank">github.com/alkavarak17-a11y</a><br><b>LinkedIn:</b><a href="https://www.linkedin.com/in/alka-varak-624a28382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">https://www.linkedin.com/in/alka-varak-624a28382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</a></p>
+</body>

@@ -1,0 +1,90 @@
+/* ============================= */
+/* Global Reset */
+/* ============================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ============================= */
+/* Body */
+/* ============================= */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    color: #333;
+    min-height: 100vh;
+    padding: 20px 40px;
+}
+
+/* ============================= */
+/* Main Container */
+/* ============================= */
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* ============================= */
+/* Main Title */
+/* ============================= */
+.main-title {
+    color: #0d47a1;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* ============================= */
+/* Navbar */
+/* ============================= */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3a8a;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #1e3a8a;
+}
+
+/* ============================= */
+/* Headings */
+/* ============================= */
+h1, h2, h3, h4 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+/* ============================= */
+/* Sections */
+/* ============================= */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0
